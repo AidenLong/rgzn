@@ -70,7 +70,9 @@ def my_cp(i1, i2):
         return False
 
 
-print(revert('i love   china!'))
+s = '   i  love   china!   '
+print(revert(s))
+print(len(s) == len(revert(s)))
 su_shu(10)
 func(*(1, 2, 3))
 func(*(1, 2, 3), **({'name': '小明', 'sex': '男'}))

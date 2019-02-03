@@ -14,6 +14,7 @@ def transfer_matrix(matrix):
                         - ret[i - 1][j - 1] + matrix[i][j]
     return ret
 
+
 print(transfer_matrix([[1, 2], [3, 4]]))
 print(transfer_matrix([[1, 2, 3], [4, 5, 6]]))
 print(transfer_matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
